@@ -1,0 +1,110 @@
+html {
+    font-size: 62.5%;
+}
+
+.list {
+    display: flex;
+    gap: 3rem;
+}
+
+.list-item {
+    font-size: 1.6rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-bottom: 7px solid #fff;
+    padding: 3%;
+}
+titulo {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    pad: 0;
+    box-sizing: content-box;
+}
+#cheins{
+    
+}
+img{
+    width: 25%;
+    
+}
+
+.list-item a {
+font-size: 1.5rem;
+font-family: 'Anton', sans-serif;
+font-family: 'Permanent Marker', cursive;
+font-weight: bold;
+border-bottom: 2px solid white;
+transition: all 0.5s ease;
+text-decoration: none;
+}
+
+.list :hover a{
+border-color: gray;
+}
+
+#cheins {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#aniyo {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#pulse{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#pendi{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#contacto{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.encabezado img, .menu {
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+.encabezado img {
+    width: 90px;
+    height: 90px;
+    
+    
+}
+.list {
+    list-style: none;
+}
+
+.encabezado{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    gap: 10rem;
+}
